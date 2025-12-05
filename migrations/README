@@ -1,0 +1,10 @@
+# Peak Performance App
+
+## Description
+
+- This is the backend that powers my peak performance application, I am using fast api for the framework and sqlalchemy for thhe db management
+
+1. Install required packages with `pipenv insall sqlalchemy alembic "fastapi[standard]"`
+2. Activate the virtual environment with `pipenv shell`
+3. Initialise the migrations with he command `alembic init migrations`
+
