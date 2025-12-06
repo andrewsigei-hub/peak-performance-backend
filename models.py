@@ -15,7 +15,6 @@ from sqlalchemy.orm import relationship, declarative_base
 
 Base = declarative_base()  # The class all  models inherit from
 
-
 # Creation of schema
 
 
