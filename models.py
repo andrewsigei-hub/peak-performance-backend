@@ -74,6 +74,7 @@ class Exercise(Base):
     sets = Column(Integer, nullable=False)
     reps = Column(Integer, nullable=False)
     weight = Column(Float, nullable=False)
+    is_starred = Column(Boolean, default=False)
 
     # Relationship
     workout = relationship("Workout", back_populates="exercises")  # links to workout

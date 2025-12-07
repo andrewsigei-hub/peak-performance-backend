@@ -23,7 +23,7 @@ Base.metadata.create_all(bind=engine)
 
 # Initialize FastAPI app
 app = FastAPI(
-    title="Fitness Tracker API",
+    title="Peak perform API",
     description="API for tracking workouts, exercises, and meals",
     version="1.0.0",
 )
@@ -158,7 +158,7 @@ class MealResponse(BaseModel):
 @app.get("/")
 def read_root():
     return {
-        "message": "Welcome to Fitness Tracker API",
+        "message": "Welcome to Peak perform API",
         "version": "1.0.0",
         "endpoints": {
             "users": "/users",
